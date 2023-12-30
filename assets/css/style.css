@@ -698,19 +698,19 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Speakers Section
+# Produits Section
 --------------------------------------------------------------*/
-#speakers {
+#Produits {
   padding: 60px 0 30px 0;
 }
 
-#speakers .speaker {
+#Produits .produit {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#speakers .speaker .details {
+#Produits .produit .details {
   background: rgba(6, 12, 34, 0.76);
   position: absolute;
   left: 0;
@@ -721,57 +721,57 @@ h6 {
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
-#speakers .speaker .details h3 {
+#Produits .produit .details h3 {
   color: #fff;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#speakers .speaker .details p {
+#Produits .produit .details p {
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
 }
 
-#speakers .speaker .details .social {
+#Produits .produit .details .social {
   height: 40px;
 }
 
-#speakers .speaker .details .social i {
+#Produits .produit .details .social i {
   line-height: 0;
   margin: 0 2px;
 }
 
-#speakers .speaker .details a {
+#Produits .produit .details a {
   color: #fff;
 }
 
-#speakers .speaker .details a:hover {
+#Produits .produit .details a:hover {
   color: #f82249;
 }
 
-#speakers .speaker:hover .details {
+#Produits .produit:hover .details {
   bottom: 0;
 }
 
-#speakers-details {
+#Produits-details {
   padding: 60px 0;
 }
 
-#speakers-details .details h2 {
+#Produits-details .details h2 {
   color: #112363;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 10px;
 }
 
-#speakers-details .details .social {
+#Produits-details .details .social {
   margin-bottom: 15px;
 }
 
-#speakers-details .details .social a {
+#Produits-details .details .social a {
   background: #e9edfb;
   color: #112363;
   line-height: 1;
@@ -785,30 +785,30 @@ h6 {
   justify-content: center;
 }
 
-#speakers-details .details .social a:hover {
+#Produits-details .details .social a:hover {
   background: #f82249;
   color: #fff;
 }
 
-#speakers-details .details .social a i {
+#Produits-details .details .social a i {
   font-size: 16px;
   line-height: 0;
 }
 
-#speakers-details .details p {
+#Produits-details .details p {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
-# Schedule Section
+# tarifs Section
 --------------------------------------------------------------*/
-#schedule {
+#tarifs {
   padding: 60px 0 60px 0;
 }
 
-#schedule .nav-tabs {
+#tarifs .nav-tabs {
   text-align: center;
   margin: auto;
   display: block;
@@ -816,12 +816,12 @@ h6 {
   margin-bottom: 30px;
 }
 
-#schedule .nav-tabs li {
+#tarifs .nav-tabs li {
   display: inline-block;
   margin-bottom: 0;
 }
 
-#schedule .nav-tabs a {
+#tarifs .nav-tabs a {
   border: none;
   border-radius: 50px;
   font-weight: 600;
@@ -831,29 +831,29 @@ h6 {
 }
 
 @media (max-width: 991px) {
-  #schedule .nav-tabs a {
+  #tarifs .nav-tabs a {
     padding: 8px 60px;
   }
 }
 
 @media (max-width: 767px) {
-  #schedule .nav-tabs a {
+  #tarifs .nav-tabs a {
     padding: 8px 50px;
   }
 }
 
 @media (max-width: 480px) {
-  #schedule .nav-tabs a {
+  #tarifs .nav-tabs a {
     padding: 8px 30px;
   }
 }
 
-#schedule .nav-tabs a.active {
+#tarifs .nav-tabs a.active {
   background-color: #f82249;
   color: #fff;
 }
 
-#schedule .sub-heading {
+#tarifs .sub-heading {
   text-align: center;
   font-size: 18px;
   font-style: italic;
@@ -861,32 +861,32 @@ h6 {
 }
 
 @media (min-width: 991px) {
-  #schedule .sub-heading {
+  #tarifs .sub-heading {
     width: 75%;
   }
 }
 
-#schedule .tab-pane {
+#tarifs .tab-pane {
   transition: ease-in-out 0.2s;
 }
 
-#schedule .schedule-item {
+#tarifs .tarifs-item {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
   transition: background-color ease-in-out 0.3s;
 }
 
-#schedule .schedule-item:hover {
+#tarifs .tarifs-item:hover {
   background-color: #fff;
 }
 
-#schedule .schedule-item time {
+#tarifs .tarifs-item time {
   padding-bottom: 5px;
   display: inline-block;
 }
 
-#schedule .schedule-item .speaker {
+#tarifs .tarifs-item .produit {
   width: 60px;
   height: 60px;
   overflow: hidden;
@@ -895,58 +895,58 @@ h6 {
   margin: 0 10px 10px 0;
 }
 
-#schedule .schedule-item .speaker img {
+#tarifs .tarifs-item .produit img {
   height: 100%;
   transform: translateX(-50%);
   margin-left: 50%;
   transition: all ease-in-out 0.3s;
 }
 
-#schedule .schedule-item h4 {
+#tarifs .tarifs-item h4 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#schedule .schedule-item h4 span {
+#tarifs .tarifs-item h4 span {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
   font-size: 16px;
 }
 
-#schedule .schedule-item p {
+#tarifs .tarifs-item p {
   font-style: italic;
   color: #152b79;
   margin-bottom: 0;
 }
 
 /*--------------------------------------------------------------
-# Venue Section
+# studio Section
 --------------------------------------------------------------*/
-#venue {
+#studio {
   padding: 60px 0;
 }
 
-#venue .container-fluid {
+#studio .container-fluid {
   margin-bottom: 3px;
 }
 
-#venue .venue-map iframe {
+#studio .studio-map iframe {
   width: 100%;
   height: 100%;
   min-height: 300px;
 }
 
-#venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+#studio .studio-info {
+  background: url("../img/studio-info-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
-#venue .venue-info:before {
+#studio .studio-info:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -956,92 +956,92 @@ h6 {
   right: 0;
 }
 
-#venue .venue-info h3 {
+#studio .studio-info h3 {
   font-size: 36px;
   font-weight: 700;
   color: #fff;
 }
 
 @media (max-width: 574px) {
-  #venue .venue-info h3 {
+  #studio .studio-info h3 {
     font-size: 24px;
   }
 }
 
-#venue .venue-info p {
+#studio .studio-info p {
   color: #fff;
   margin-bottom: 0;
 }
 
-#venue .venue-gallery-container {
+#studio .studio-realisations-container {
   padding-right: 12px;
 }
 
-#venue .venue-gallery {
+#studio .studio-realisations {
   overflow: hidden;
   border-right: 3px solid #fff;
   border-bottom: 3px solid #fff;
 }
 
-#venue .venue-gallery img {
+#studio .studio-realisations img {
   transition: all ease-in-out 0.4s;
 }
 
-#venue .venue-gallery:hover img {
+#studio .studio-realisations:hover img {
   transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
-# Hotels Section
+# temoignage Section
 --------------------------------------------------------------*/
-#hotels {
+#temoignage {
   padding: 60px 0;
 }
 
-#hotels .hotel {
+#temoignage .hotel {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
 }
 
-#hotels .hotel:hover .hotel-img img {
+#temoignage .hotel:hover .hotel-img img {
   transform: scale(1.1);
 }
 
-#hotels .hotel-img {
+#temoignage .hotel-img {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-#hotels .hotel-img img {
+#temoignage .hotel-img img {
   transition: 0.3s ease-in-out;
 }
 
-#hotels h3 {
+#temoignage h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
 }
 
-#hotels a {
+#temoignage a {
   color: #152b79;
 }
 
-#hotels a:hover {
+#temoignage a:hover {
   color: #f82249;
 }
 
-#hotels .stars {
+#temoignage .stars {
   padding: 0 20px;
   margin-bottom: 5px;
 }
 
-#hotels .stars i {
+#temoignage .stars i {
   color: rgb(255, 195, 29);
 }
 
-#hotels p {
+#temoignage p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #060c22;
@@ -1050,19 +1050,19 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Gallery Section
+# realisations Section
 --------------------------------------------------------------*/
-#gallery {
+#realisations {
   padding: 60px;
   overflow: hidden;
 }
 
-#gallery .swiper-pagination {
+#realisations .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
-#gallery .swiper-pagination .swiper-pagination-bullet {
+#realisations .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1070,20 +1070,20 @@ h6 {
   border: 1px solid #f82249;
 }
 
-#gallery .swiper-pagination .swiper-pagination-bullet-active {
+#realisations .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f82249;
 }
 
-#gallery .swiper-slide-active {
+#realisations .swiper-slide-active {
   text-align: center;
 }
 
 @media (min-width: 992px) {
-  #gallery .swiper-wrapper {
+  #realisations .swiper-wrapper {
     padding: 40px 0;
   }
 
-  #gallery .swiper-slide-active {
+  #realisations .swiper-slide-active {
     border: 5px solid #f82249;
     padding: 4px;
     background: #fff;
@@ -1094,7 +1094,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Sponsors Section
+# confiance Section
 --------------------------------------------------------------*/
 #supporters {
   padding: 60px 0;

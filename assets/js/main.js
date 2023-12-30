@@ -8,7 +8,7 @@
 (function() {
   "use strict";
 
-  /**
+  /** 
    * Easy selector helper function
    */
   const select = (el, all = false) => {
@@ -167,9 +167,9 @@
   });
 
   /**
-   * Gallery Slider
+   * realisations Slider
    */
-  new Swiper('.gallery-slider', {
+  new Swiper('.realisations-slider', {
     speed: 400,
     loop: true,
     centeredSlides: true,
@@ -204,10 +204,10 @@
   });
 
   /**
-   * Initiate gallery lightbox 
+   * Initiate realisations lightbox 
    */
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
+  const realisationsLightbox = GLightbox({
+    selector: '.realisations-lightbox'
   });
 
   /**
