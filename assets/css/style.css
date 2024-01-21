@@ -504,7 +504,7 @@ h5
 
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: rgba(29, 32, 41, 0.774);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -541,7 +541,7 @@ h5
 }
 
 #hero h1 span {
-  color: #f8234a;
+  color: #84999c;
 }
 
 @media (max-width: 991px) {
@@ -680,7 +680,7 @@ h5
 
 #about:before {
   content: "";
-  background: rgba(13, 20, 41, 0.8);
+  background: rgba(29, 32, 41, 0.774);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -723,7 +723,7 @@ h5
 }
 
 #Produits .produit .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: rgba(29, 32, 41, 0.774);
   position: absolute;
   left: 0;
   bottom: -40px;
@@ -1216,7 +1216,7 @@ h5
 
 #subscribe:before {
   content: "";
-  background: rgba(6, 12, 34, 0.6);
+  background: rgba(29, 32, 41, 0.774);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1257,7 +1257,7 @@ h5
   padding: 9px 25px;
   cursor: pointer;
   background: #84999c;
-  color: #fff;
+  color: #0f111a;
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
@@ -1285,12 +1285,12 @@ h5
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  box-shadow: 0 10px 25px 0 rgba(29, 32, 41, 0.774);
   background-color: #84999c;
 }
 
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  box-shadow: 0 10px 35px 0 rgba(29, 32, 41, 0.774);
 }
 
 #buy-tickets .card hr {
@@ -1478,7 +1478,7 @@ h5
   background: #84999c;
   border: 0;
   padding: 10px 40px;
-  color: #fff;
+  color: #0f111a;
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
@@ -1504,12 +1504,12 @@ h5
 #footer {
   background: #101522;
   padding: 0 0 25px 0;
-  color: #eee;
+  color: #0f111a;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #040919;
+  background: #84999c;
   padding: 60px 0 30px 0;
 }
 
@@ -1524,7 +1524,7 @@ h5
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: #0f111a;
 }
 
 #footer .footer-top .footer-info img {
@@ -1537,7 +1537,7 @@ h5
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #0f111a;
 }
 
 #footer .footer-top .social-links a {
@@ -1555,6 +1555,7 @@ h5
   justify-content: center;
 }
 
+
 #footer .footer-top .social-links a i {
   line-height: 0;
   font-size: 16px;
@@ -1562,13 +1563,13 @@ h5
 
 #footer .footer-top .social-links a:hover {
   background: #84999c;
-  color: #fff;
+  color: #0f111a;
 }
 
 #footer .footer-top h4 {
   font-size: 14px;
   font-weight: bold;
-  color: #fff;
+  color: #0f111a;
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
@@ -1601,7 +1602,7 @@ h5
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #eee;
+  color: #0f111a;
 }
 
 #footer .footer-top .footer-links ul a:hover {
@@ -1632,7 +1633,7 @@ h5
   width: 35%;
   padding: 6px 0;
   text-align: center;
-  color: #fff;
+  color: #0f111a;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1642,6 +1643,7 @@ h5
 }
 
 #footer .copyright {
+  color: #fff;
   text-align: center;
   padding-top: 30px;
 }
@@ -1649,5 +1651,5 @@ h5
 #footer .credits {
   text-align: center;
   font-size: 13px;
-  color: #ddd;
+  color: #fff;
 }
