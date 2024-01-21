@@ -34,11 +34,7 @@ p {
   margin: 0 0 30px 0;
 }
 
-h2{
-  font-family: "Geor Grotesk", sans-serif;
-  
-  color: #fff;
-}
+
 
 h6 {
   font-family: "Geor Grotesk", sans-serif;
@@ -47,7 +43,7 @@ h6 {
 }
 
 h1,
-/* h2, */
+h2,
 h3,
 h4,
 h5
@@ -202,11 +198,11 @@ h5
 --------------------------------------------------------------*/
 .buy-tickets {
   color: #fff;
-  background: #25D366;
+  background: #84999c;
   padding: 7px 22px;
   margin: 0 0 0 15px;
   border-radius: 50px;
-  border: 2px solid #25D366;
+  border: 2px solid #84999c;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   line-height: 1;
@@ -504,7 +500,7 @@ h5
 
 #hero:before {
   content: "";
-  background: rgba(29, 32, 41, 0.774);
+  background: rgba(29, 32, 41, 0.826);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -692,7 +688,7 @@ h5
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #fff;
+  color: #84999c;
 }
 
 #about h3 {
@@ -700,7 +696,7 @@ h5
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 10px;
-  color: #fff;
+  color: #84999c;
 }
 
 #about p {
